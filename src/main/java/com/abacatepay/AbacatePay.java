@@ -9,7 +9,7 @@ import feign.RequestInterceptor;
 public class AbacatePay implements IAbacatePay {
 
     private static final String API_BASE_URL = "https://api.abacatepay.com/v1";
-    private static final String SDK_NAME = "abacatepay-sdk-java";
+    private static final String SDK_NAME = "abacatepay-java-sdk";
     private static final String SDK_VERSION = resolveVersion();
 
     private final String apiKey;

@@ -123,7 +123,7 @@ class AbacatePayTest {
         String currentOs = System.getProperty("os.name");
 
         Assertions.assertNotNull(userAgent);
-        Assertions.assertTrue(userAgent.startsWith("abacatepay-sdk-java/"), "Should start with the SDK name");
+        Assertions.assertTrue(userAgent.startsWith("abacatepay-java-sdk/"), "Should start with the SDK name");
         Assertions.assertTrue(userAgent.contains("Java/" + currentJava), "Should contain the Java tag version");
         Assertions.assertTrue(userAgent.contains(currentOs), "Should contain the OS name");
     }
